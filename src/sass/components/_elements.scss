@@ -264,6 +264,16 @@ img {
   }
 }
 
+.objects-selection {
+  overflow: auto;
+  margin-bottom: 1em;
+  
+  div {
+    column-count: auto;
+    column-width: 400px;
+  }
+}
+
 .roles-selection {
   label {
     @include check-inline;
